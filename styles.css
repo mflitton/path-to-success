@@ -81,6 +81,24 @@ h1 {
 	font-size: 3em;
 }
 
+h2 {
+	font-size: 2em;
+	padding: 20px 0 0 20px;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: var(--Yellow);
+	font-weight: bolder;
+	padding: 5px 0 0 20px;
+}
+
+h4 {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: var(--Purple);
+}
+
 nav {
 	background-color: var(--Yellow);
 	padding: 5px 0 10px 0;
@@ -100,25 +118,11 @@ nav li {
 
 nav h2 {
 	font-size: 1.5em;
-	color: var(--Dark-gray);
-}
-
-h2 {
-	font-size: 2em;
-	padding: 10px 0 0 10px;
-}
-
-h3 {
-	font-size: 1.5em;
-	color: var(--Yellow);
+	font-family: 'Inter';
+	font-style: italic;
 	font-weight: bolder;
-	padding: 5px 0 5px 10px;
-}
-
-h4 {
-	font-size: 1.15em;
-	font-weight: bold;
-	color: var(--Purple);
+	color: var(--Dark-gray);
+	padding-top: 10px;
 }
 
 header {
@@ -129,7 +133,7 @@ header {
 header p {
 	color: var(--White);
 	padding: 10px 20px;
-	
+	line-height: 25px;
 }
 
 #header {
@@ -138,31 +142,215 @@ header p {
 
 #our-services {
 	background-color: var(--Purple);
+	padding-bottom: 10px;
+}
+
+#our-services h4 {
+	padding: 5px 0 10px 0;
+}
+
+#our-services img {
+	padding: 0 0 10px 10px;
 }
 
 #personal-development {
 	background-color: var(--White);
-	margin: 10px 20px;
+	margin: 20px 30px;
 	padding: 20px;
 	border-radius: 15px;
 }
 
-#our-services h4 {
-	padding: 5px 0;
+#personal-development p {
+	line-height: 25px;
+}
+
+#career-coaching {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#career-coaching p {
+	line-height: 25px;
+}
+
+#relationship-coaching {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#relationship-coaching p {
+	line-height: 25px;
+}
+
+#supportive-community {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#supportive-community p {
+	line-height: 25px;
+}
+
+#focused-session {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#focused-session p {
+	line-height: 25px;
+}
+
+#interactive-learning {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#interactive-learning p {
+	line-height: 25px;
+}
+
+#flexible-learning {
+	background-color: var(--White);
+	margin: 20px 30px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#flexible-learning p {
+	line-height: 25px;
 }
 
 #why-choose-us {
 	background-color: var(--Pink);
+	padding-bottom: 15px;
+}
+
+#why-choose-us h2 {
+	margin: 0 0 20px 0;
+}
+
+#why-choose-us ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	column-gap: 15px;
+	row-gap: 15px;
+}
+
+#personalized-approach {
+	background-color: var(--Teal);
+	padding: 35px;
+	margin: 0 0 0 20px;
+	font-weight: bolder;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#proven-results {
+	background-color: var(--Lavender);
+	padding: 42px 40px;
+	margin: 0 20px 0 0;
+	font-weight: bolder;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#supportive-environment {
+	background-color: var(--Yellow);
+	padding: 35px;
+	margin: 0 0 0 20px;
+	font-weight: bolder;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#flexible-options {
+	background-color: var(--White);
+	padding: 42px 35px;
+	margin: 0 20px 0 0;
+	font-weight: bolder;
+	text-align: center;
+	border-radius: 15px;
 }
 
 #pricing {
 	background-color: var(--Purple);
+	padding-bottom: 10px;
+}
+
+#pricing h3 {
+	padding: 10px 20px;
+}
+
+#pricing table {
+	margin: 0 auto;
+}
+
+#pricing th {
+	background-color: var(--Yellow);
+	border: 2px solid var(--Yellow);
+	font-weight: bolder;
+	padding: 15px 0;
+}
+
+#pricing td {
+	background-color: var(--White);
+	border: 2px solid var(--Yellow);
+	padding: 15px;
 }
 
 #schedule-now {
 	background-color: var(--Pink);
+	padding-bottom: 10px;
+}
+
+#schedule-now p {
+	margin: 10px 20px;
+	border-radius: 15px;
+	line-height: 25px;
+	color: var(--White);
+}
+
+#schedule-now a {
+	text-decoration: none;
+	display: block;
+	color: var(--Dark-gray);
+	font-weight: bolder;
+	background-color: var(--White);
+	text-align: center;
+	padding: 20px 40px;
+	margin: 0 30px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 4px var(--Dark-gray);
 }
 
 footer {
 	background-color: var(--Purple);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 60px 0;
+	align-items: center;
+	justify-items: center;
+}
+
+footer p {
+	color: var(--White);
+	margin: 0 0 0 20px;
+}
+
+footer a {
+	color: var(--White);
+	margin: 0 20px 0 0;
 }
