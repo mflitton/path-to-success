@@ -1,3 +1,7 @@
+
+/* IMPORTED FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+
 /* CSS RESET */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -58,24 +62,73 @@ table {
     --Pink:#D9526F;
     --Dark-gray:#1E1E1E; 
     --White:#ffffff; 
-
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+body {
+	font-family: 'Inter';
+	max-width: 450px;
+	background-color: var(--Lavender);
+	margin: 0 auto 50px auto;
+}
 
 h1, h2 {
     font-family: 'Kavoon';
+	color: var(--White);
 }
 
-All other text
-Inter
-H1
-3em
-NAV H2
-1.5em
-H2
-2em
-H3
-1.5em
-H4
-1.15em
+h1 {
+	font-size: 3em;
+}
+
+nav {
+	background-color: var(--Yellow);
+}
+
+nav h2 {
+	font-size: 1.5em;
+	color: var(--Dark-gray);
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: var(--Yellow);
+}
+
+h4 {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: var(--Purple);
+}
+
+header {
+	background-color: var(--Purple);
+	text-align: center;
+}
+
+#header {
+	padding: 20px 0 30px 0;
+}
+
+#our-services {
+	background-color: var(--Purple);
+}
+
+#why-choose-us {
+	background-color: var(--Pink);
+}
+
+#pricing {
+	background-color: var(--Purple);
+}
+
+#schedule-now {
+	background-color: var(--Pink);
+}
+
+footer {
+	background-color: var(--Purple);
+}
